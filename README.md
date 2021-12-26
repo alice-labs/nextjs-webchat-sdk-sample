@@ -3,11 +3,11 @@
 Please follow the steps below:
 
 - add a `_document.tsx` if you dont have one in `pages` folder
-- create a `static` folder in root and create a file name called `alice-webchat-sdk.js`
+- go to `public` folder in root and create a file name called `alice-webchat-sdk.js` inside `scripts` folder
 - paste all sdk codes inside that file
-- add code below as script to load sdk js inside `_document.tsx` `Head` component
+- add code as given inside `_document.tsx` `Head` component
 ```
-<script async type="text/javascript" src="/static/alice-webchat-sdk.js" />
+<script async type="text/javascript" src="/script/alice-webchat-sdk.js" />
 ```
 - this should load your script
 
