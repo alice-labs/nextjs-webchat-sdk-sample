@@ -24,7 +24,7 @@ class MyDocument extends Document {
           <script
             async
             type="text/javascript"
-            src="/static/alice-webchat-sdk.js"
+            src="/script/alice-webchat-sdk.js"
           />
         </Head>
         <body>
